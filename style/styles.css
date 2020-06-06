@@ -204,12 +204,12 @@ main p, main h3 {
 }
 
 main h2 {
-	border-bottom: solid #6200ea 2px;
+	border-bottom: solid #1d1f6c 2px;
 	margin: 30px;
 }
 
 h2 i {
-	color: #6200ea;
+	color: #1d1f6c;
 	padding-right: 15px;
 }
 
@@ -219,7 +219,7 @@ h2 i {
 
 	.date i {
 		padding-right: 16px;
-		color: #6200ea;
+		color: #1d1f6c;
 	}
 
 .where {
@@ -239,7 +239,7 @@ h3 {
 footer {
 	text-align: center;
 	padding: 20px 0;
-	color: #6200ea;
+	color: #1d1f6c;
 	background-color: #cfd8dc;
 }
 
@@ -261,7 +261,7 @@ footer {
 		flex: 1;
 		margin: auto;
 		text-align: center;
-		color: #6200ea;
+		color: #1d1f6c;
 		text-transform: uppercase;
 	}
 
@@ -280,7 +280,7 @@ footer {
     }
 
     header .colonne_une {
-    	background-color: #6200ea;
+    	background-color: #1d1f6c;
     }
 
 	aside {
