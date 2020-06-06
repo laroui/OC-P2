@@ -66,7 +66,7 @@ header h2 {
 
 #prenom {
 	font-weight: bold;
-	color: #6200ea;
+	color: #1d1f6c;
 }
 
 /*nav*/
@@ -90,7 +90,7 @@ header h2 {
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #6200ea;
+	color: #1d1f6c;
     line-height: 70px;
     display: block;
     margin: 0;
@@ -128,12 +128,12 @@ label {
 
 /*aside*/
 aside {
-	background-color: #6200ea;
+	background-color: #1d1f6c;
 }
 
 aside h2 {
 	background-color: #cfd8dc;
-	color: #6200ea;
+	color: #1d1f6c;
 	text-align: center;
 }
 
