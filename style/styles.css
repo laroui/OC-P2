@@ -1,0 +1,316 @@
+html{
+	scroll-behavior:smooth;
+
+}
+.skill {
+	display: inline-block;
+	width: 20%;
+	font-size: 300%;
+	padding: 2px;
+	margin-left:10%;
+}
+td{
+	padding:10px;
+}
+.lang {
+	color: whitesmoke;
+	font-family: 'Raleway';
+	text-decoration:saddlebrown;
+	display: block;
+	width: 20%;
+	font-size: 200%;
+	padding: 2px;
+	margin-left:10%;
+}
+
+
+body {
+	font-family: 'Raleway', 'Times New Roman', sans-serif;
+	width: 100%;
+	background-color: #ffffff;
+	margin: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h1 + h2 {
+	text-transform: initial;
+	font-weight: normal;
+}
+
+
+/*header*/
+header {
+	text-align: center; /*desktop left*/
+}
+i{
+	color:whitesmoke;
+}
+h1 em {
+	font-style: normal;
+}
+
+header h1 {
+	margin: 40px 30px 0 30px;
+	font-size: 3em;
+}
+.contact-card{
+color:whitesmoke;
+}
+
+header h2 {
+	margin: 20px 30px;
+}
+
+#prenom {
+	font-weight: bold;
+	color: #6200ea;
+}
+
+/*nav*/
+.desktop {
+	display: none;
+}
+
+.mobile {
+    text-align: right;
+    min-height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6200ea;
+    line-height: 70px;
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.avatar {
+	vertical-align: middle;
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    width: 34px;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: block;
+    background: #cfd8dc;
+}
+
+.menu a:active {
+    background-color: #cfd8dc;
+}
+
+/*aside*/
+aside {
+	background-color: #6200ea;
+}
+
+aside h2 {
+	background-color: #cfd8dc;
+	color: #6200ea;
+	text-align: center;
+}
+
+aside p, aside h3 {
+	padding: 0 15px;
+	color: #cfd8dc;
+}
+
+aside h3 {
+	text-transform: initial;
+	margin-bottom: 0;
+}
+
+aside h3 + p {
+	margin-top: 0;
+}
+
+#contact p a {
+	text-decoration: none;
+	color: #cfd8dc;
+}
+
+#about p {
+	text-align: justify;
+	line-height: 23px;
+}
+
+#about p a {
+	color: #cfd8dc;
+}
+
+#hobbies {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#hobbies i {
+	font-size: 1.5em;
+	margin-right: 5px;
+	border: 2px solid #cfd8dc;
+	border-radius: 35px;
+	padding: 15px;
+	color: #cfd8dc;
+}
+
+.loisirs {
+	display: flex;
+}
+
+.loisirs p {
+	flex: 1;
+}
+
+/*main text*/
+.parent_colonnes {
+	border-radius: 7px;
+	box-shadow: 0 0 10px 0 rgba(199,199,199,1);
+	margin: 15px;
+	padding: 10px 0;
+}
+
+main h3 + p {
+	font-family: Arial;
+}
+
+main p, main h3 {
+	padding: 0 15px;
+}
+
+main h2 {
+	border-bottom: solid #6200ea 2px;
+	margin: 30px;
+}
+
+h2 i {
+	color: #6200ea;
+	padding-right: 15px;
+}
+
+.date {
+	margin: 16px 0 0 0;
+}
+
+	.date i {
+		padding-right: 16px;
+		color: #6200ea;
+	}
+
+.where {
+	margin: 0 0 16px 32px;
+}
+
+h3 {
+	text-transform: uppercase;
+	margin: 16px 0;
+}
+
+.colonne_une_references p, .colonne_deux_references p{
+	margin: 6px 0 6px 0;
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	padding: 20px 0;
+	color: #6200ea;
+	background-color: #cfd8dc;
+}
+
+/*Media Queries*/
+@media (min-width: 768px) and (orientation: landscape) {
+	.mobile {
+		display: none;
+	}
+
+	.desktop {
+		display: contents;
+		display: flex;
+		height: 70px;
+		background-color: #cfd8dc;
+	}
+
+	.desktop a {
+		text-decoration: none;
+		flex: 1;
+		margin: auto;
+		text-align: center;
+		color: #6200ea;
+		text-transform: uppercase;
+	}
+
+	.desktop a:hover {
+		color: #0a00b6;
+		font-weight: bold;
+		font-size: 1rem;
+	}
+
+	header {
+    	display: flex;
+    }
+
+    header .colonne_deux {
+    	text-align: left;
+    }
+
+    header .colonne_une {
+    	background-color: #6200ea;
+    }
+
+	aside {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#about {
+		flex-grow: 3;
+	}
+	
+    .colonne_une, aside {
+    	flex: 0.8;
+    	margin: 0 40px 0 0;
+    }
+
+	.parent_colonnes {
+		border: none;
+		box-shadow: none;
+	}
+
+	.colonne_deux, main {
+    	flex: 2;
+    }
+
+    .parent_aside_main, .parent_colonnes {
+    	display: flex;
+    }
+
+    .colonne_une_references, .colonne_deux_references {
+    	flex: 1;
+    }
+}
