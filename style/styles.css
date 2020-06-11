@@ -2,13 +2,7 @@ html{
 	scroll-behavior:smooth;
 
 }
-.skill {
-	display: inline-block;
-	width: 20%;
-	font-size: 300%;
-	padding: 2px;
-	margin-left:10%;
-}
+
 td{
 	padding:10px;
 }
@@ -79,7 +73,9 @@ header h2 {
     min-height: 70px;
     line-height: 70px;
 }
-
+.underline{
+	border-bottom: solid #F06292 2px;
+}
 .menu {
     margin: 0 30px 0 0;
     text-align: center;
@@ -98,8 +94,10 @@ header h2 {
 }
 
 .avatar {
-	border: lightgray solid;
-	box-shadow: 1px 1px;
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+  border: 1px solid rgba(150,180,150,0.8);
 	vertical-align: middle;
 	width: 230px;
 	height: 230px;
@@ -237,13 +235,7 @@ h3 {
 	margin: 6px 0 6px 0;
 }
 
-/*footer*/
-footer {
-	text-align: center;
-	padding: 20px 0;
-	color: #F06292;
-	background-color: #cfd8dc;
-}
+
 
 /*Media Queries*/
 @media (min-width: 768px) and (orientation: landscape) {
