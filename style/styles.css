@@ -66,7 +66,7 @@ header h2 {
 
 #prenom {
 	font-weight: bold;
-	color: #1d1f6c;
+	color: #F06292;
 }
 
 /*nav*/
@@ -90,7 +90,7 @@ header h2 {
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
-	color: #1d1f6c;
+	color: #F06292;
     line-height: 70px;
     display: block;
     margin: 0;
@@ -98,6 +98,8 @@ header h2 {
 }
 
 .avatar {
+	border: lightgray solid;
+	box-shadow: 1px 1px;
 	vertical-align: middle;
 	width: 230px;
 	height: 230px;
@@ -128,12 +130,12 @@ label {
 
 /*aside*/
 aside {
-	background-color: #1d1f6c;
+	background-color: #F06292;
 }
 
 aside h2 {
 	background-color: #cfd8dc;
-	color: #1d1f6c;
+	color: #F06292;
 	text-align: center;
 }
 
@@ -204,12 +206,12 @@ main p, main h3 {
 }
 
 main h2 {
-	border-bottom: solid #1d1f6c 2px;
+	border-bottom: solid #F06292 2px;
 	margin: 30px;
 }
 
 h2 i {
-	color: #1d1f6c;
+	color: #F06292;
 	padding-right: 15px;
 }
 
@@ -219,7 +221,7 @@ h2 i {
 
 	.date i {
 		padding-right: 16px;
-		color: #1d1f6c;
+		color: #F06292;
 	}
 
 .where {
@@ -239,7 +241,7 @@ h3 {
 footer {
 	text-align: center;
 	padding: 20px 0;
-	color: #1d1f6c;
+	color: #F06292;
 	background-color: #cfd8dc;
 }
 
@@ -261,7 +263,7 @@ footer {
 		flex: 1;
 		margin: auto;
 		text-align: center;
-		color: #1d1f6c;
+		color: #F06292;
 		text-transform: uppercase;
 	}
 
@@ -280,7 +282,7 @@ footer {
     }
 
     header .colonne_une {
-    	background-color: #1d1f6c;
+    	background-color: #F06292;
     }
 
 	aside {
