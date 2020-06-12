@@ -1,7 +1,3 @@
-html{
-	scroll-behavior:smooth;
-
-}
 
 td{
 	padding:10px;
@@ -20,7 +16,7 @@ td{
 
 body {
 	font-family: 'Raleway', 'Times New Roman', sans-serif;
-	width: 100%;
+	max-width: 1400px;
 	background-color: whitesmoke;
 	margin: 0;
 }
