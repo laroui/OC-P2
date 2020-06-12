@@ -94,6 +94,7 @@ header h2 {
 }
 
 .avatar {
+	flex-wrap: nowrap;
 	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
   -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
   -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
