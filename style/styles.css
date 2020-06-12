@@ -32,7 +32,9 @@ h1 + h2 {
 
 
 /*header*/
-header {
+.header {
+	margin: 15px;
+	padding: 10px 0;
 	text-align: center; /*desktop left*/
 }
 i{
@@ -42,7 +44,7 @@ h1 em {
 	font-style: normal;
 }
 
-header h1 {
+.header h1 {
 	margin: 40px 30px 0 30px;
 	font-size: 3em;
 }
@@ -50,7 +52,7 @@ header h1 {
 color:whitesmoke;
 }
 
-header h2 {
+.header h2 {
 	margin: 20px 30px;
 }
 
@@ -69,8 +71,8 @@ header h2 {
     min-height: 70px;
     line-height: 70px;
 }
-.underline{
-	border-bottom: solid #F06292 2px;
+#underline{
+	border-bottom: solid #F06292 1px;
 }
 .menu {
     margin: 0 30px 0 0;
@@ -185,7 +187,7 @@ aside h3 + p {
 }
 
 /*main text*/
-.parent_colonnes {
+.block {
 	border-radius: 7px;
 	box-shadow: 0 0 10px 0 rgba(199,199,199,1);
 	margin: 15px;
@@ -258,16 +260,18 @@ h3 {
 
 
 
-	header {
+	.header {
+		margin: 15px;
+		padding: 10px 0;
     	display: flex;
     }
 
-    header .colonne_deux {
+    .header .colonne_deux {
 		color:#212121;
     	text-align: left;
     }
 
-    header .colonne_une {
+    .header .colonne_une {
     	background-color: #F06292;
     }
 
@@ -285,7 +289,7 @@ h3 {
     	margin: 0 40px 0 0;
     }
 
-	.parent_colonnes {
+	.block {
 		border: none;
 		box-shadow: none;
 	}
@@ -294,7 +298,13 @@ h3 {
     	flex: 2;
     }
 
-    .main_container, .parent_colonnes {
+    .main_container, .block {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+		align-content: stretch;
     	display: flex;
     }
 
