@@ -90,14 +90,14 @@ header h2 {
 }
 
 .avatar {
+	flex:1;
 	flex-wrap: nowrap;
 	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
   -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
   -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
-  border: 1px solid rgba(150,180,150,0.8);
-	vertical-align: middle;
-	width: 230px;
-	height: 230px;
+  border: 1px solid rgba(150,180,150,0.5);
+	width: 200px;
+	height: 30%;
 	border-radius: 50%;
 }
 label {
@@ -294,7 +294,7 @@ h3 {
     	flex: 2;
     }
 
-    .parent_aside_main, .parent_colonnes {
+    .main_container, .parent_colonnes {
     	display: flex;
     }
 
