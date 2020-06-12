@@ -7,7 +7,7 @@ td{
 	padding:10px;
 }
 .lang {
-	color: whitesmoke;
+	color: #212121;
 	font-family: 'Raleway';
 	text-decoration:saddlebrown;
 	display: block;
@@ -21,7 +21,7 @@ td{
 body {
 	font-family: 'Raleway', 'Times New Roman', sans-serif;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: whitesmoke;
 	margin: 0;
 }
 
@@ -120,11 +120,11 @@ label {
 
 #toggle:checked + .menu {
     display: block;
-    background: #cfd8dc;
+    background: #212121;
 }
 
 .menu a:active {
-    background-color: #cfd8dc;
+    background-color: #212121;
 }
 
 /*aside*/
@@ -133,14 +133,14 @@ aside {
 }
 
 aside h2 {
-	background-color: #cfd8dc;
+	background-color: #212121;
 	color: #F06292;
 	text-align: center;
 }
 
 aside p,  h3 {
 	padding: 0 15px;
-	color: #cfd8dc;
+	color: #212121;
 }
 
 aside h3 {
@@ -154,7 +154,7 @@ aside h3 + p {
 
 #contact p a {
 	text-decoration: none;
-	color: #cfd8dc;
+	color: #212121;
 }
 
 #about p {
@@ -163,7 +163,7 @@ aside h3 + p {
 }
 
 #about p a {
-	color: #cfd8dc;
+	color: #212121;
 }
 
 #hobbies {
@@ -174,10 +174,10 @@ aside h3 + p {
 #hobbies i {
 	font-size: 1.5em;
 	margin-right: 5px;
-	border: 2px solid #cfd8dc;
+	border: 2px solid #212121;
 	border-radius: 35px;
 	padding: 15px;
-	color: #cfd8dc;
+	color: #212121;
 }
 
 .loisirs {
@@ -248,7 +248,7 @@ h3 {
 		display: contents;
 		display: flex;
 		height: 70px;
-		background-color: #cfd8dc;
+		background-color: #212121;
 	}
 
 	.desktop a {
@@ -260,17 +260,14 @@ h3 {
 		text-transform: uppercase;
 	}
 
-	.desktop a:hover {
-		color: #0a00b6;
-		font-weight: bold;
-		font-size: 1rem;
-	}
+
 
 	header {
     	display: flex;
     }
 
     header .colonne_deux {
+		color:#212121;
     	text-align: left;
     }
 
