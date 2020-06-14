@@ -1,5 +1,7 @@
 .html{
 	scroll-behavior: smooth;
+	display: block;
+
 }
 .mobile {
 	text-align: right;
@@ -301,7 +303,7 @@ h3 {
 		clear:both;
 	}
 }
-@media (max-width: 425px ) and (orientation: landscape){
+@media (max-width: 1024px ) {
 	.mobile-main{
 		display: none;
 	}
