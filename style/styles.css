@@ -287,8 +287,12 @@ h3 {
 
 /*Media Queries*/
 @media (min-width:1280px) {
+	.mobile-head{
+		display: none;
+	}
 	.body{
-		flex
+		width: 1280px;
+		max-width: 1280px;
 	}
 }
 @media screen and (max-width: 640px) {
