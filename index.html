@@ -4,33 +4,18 @@
 		<!-- Primary Meta Tags -->
 		<title>LN Développeur Web - consultant informatique - Projet OpenClassrooms n° 2</title>
 		<meta name="title" content="LN - Projet OpenClassrooms n° 2">
-		<meta name="description" content="Integrating content from a layout.
-Preparing graphic and textual elements to integrate into a web page,
-Adapt the display to small screens
-Use a version management system for project monitoring and hosting,
-Structure a web page from a mock-up.
-Ensure the compliance of a web page with HTML and CSS standards">
+		<meta name="description" content="Ceci est un CV réalisé dans le cadre d'une formation en développement web  ">
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://laroui.github.io/OC-P2/">
 		<meta property="og:title" content="LN - Projet OpenClassrooms n° 2">
-		<meta property="og:description" content="Integrating content from a layout.
-Preparing graphic and textual elements to integrate into a web page,
-Adapt the display to small screens
-Use a version management system for project monitoring and hosting,
-Structure a web page from a mock-up.
-Ensure the compliance of a web page with HTML and CSS standards">
+		<meta property="og:description" content="Ceci est un CV réalisé dans le cadre d'une formation en développement web">
 		<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="https://laroui.github.io/OC-P2/">
 		<meta property="twitter:title" content="LN - Projet OpenClassrooms n° 2">
-		<meta property="twitter:description" content="Integrating content from a layout.
-Preparing graphic and textual elements to integrate into a web page,
-Adapt the display to small screens
-Use a version management system for project monitoring and hosting,
-Structure a web page from a mock-up.
-Ensure the compliance of a web page with HTML and CSS standards">
+		<meta property="twitter:description" content="Ceci est un CV réalisé dans le cadre d'une formation en développement web">
 		<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 		<meta charset="utf-8" />
 		<link rel="icon" href="favicon.ico">
@@ -42,7 +27,7 @@ Ensure the compliance of a web page with HTML and CSS standards">
 		<script src="https://kit.fontawesome.com/ae4ed3c192.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="style/styles.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap" />
-
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -65,19 +50,19 @@ Ensure the compliance of a web page with HTML and CSS standards">
 		<h1><em class="prenom">Nacim</em> <em>LAROUI</em></h1>
 		<h2>  <span class="underline">Dével</span>oppeur  Web freelance </h2>
 	</section>
+
 		<div class="main_container">
 
 			<!--left-sidebar-->
 			<aside>
 				<!--avatar  -->
-				<section id ="avat">
+				<section class="aside-block">
 					<div class="avat">
 						<img src="img/unnamed.png" alt="portrait" class="avatar"/>
 					</div>
 				</section>
-
 				<!--Contact-->
-				<section id="contact">
+				<section  class="aside-block" id="contact">
 					<h2> Contact </h2>
 					<div class="contact-card">
 						<h3> Adresse</h3>
@@ -91,27 +76,23 @@ Ensure the compliance of a web page with HTML and CSS standards">
 						<h3>E-mail</h3>
 						<p>l.nassimo@gmail.com</p>
 					</div>
-
-
-					<br>
 				</section>
 				<!--A propos-->
-				<section id="about">
+				<section class="aside-block" id="about">
 					<h2>  à propos de moi </h2>
-					<br>
-					<p>Ma mission est de créer et maintenir des produits pour le web : <br>
-						cela peut aller d’une simple page vitrine à une application web .<br>
-						Je peux porter plusieurs casquettes pour le même projet, du projet en maquette à la conception et modélisation, <br>
+					<div>
+					<p>Ma mission est de créer et maintenir des produits pour le web :
+						cela peut aller d’une simple page vitrine à une application web .
+						Je peux porter plusieurs casquettes pour le même projet, du projet en maquette à la conception et modélisation,
 						en passant par le développement des API (Application Programming interface) en back-end,
-						la création des pages avec l’intégration du design, ou encore m’occuper de la mise en place du système et/ou des serveurs...</p>
+						la création des pages avec l’intégration du design, ou encore
+						m’occuper de la mise en place du système et/ou des serveurs...</p>
+					</div>
 				</section>
-
 				<!--Loisirs-->
-				<section id="hobbies">
-					<br>
+				<section class="aside-block" id="hobbies">
 					<h2>Loisirs </h2>
-					<br>
-					<div class="loisirs">
+					<div class="aside-block loisirs">
 						<p><i class="fas fa-gamepad"></i></p>
 						<p><i class="fas fa-book"></i>
 						<p><i class="fas fa-keyboard"></i>
@@ -121,18 +102,18 @@ Ensure the compliance of a web page with HTML and CSS standards">
 			<!--Main-section-->
 			<main>
 				<!--Personal-info-section-->
-				<section class="mobile-main">
+				<div class="desktop-header">
 
 						<h1><em class="prenom">Nacim</em> <em>LAROUI</em></h1>
 						<h2>  <span class="underline">Dével</span>oppeur  Web freelance </h2>
-				</section>
+				</div>
 				<!--Formation-->
-				<section class="main-block" id="education">
+				<div class="main-block" id="education">
 					<h2><i class="fas fa-graduation-cap"></i>Formations</h2>
-					<div class="block">
+					<section class="block">
 						<div class="colonne_une">
-							<p class="date"><i class="far fa-dot-circle"></i>En cours</p>
-							<p class="where">A distance</p>
+							<div class="date"><i class="far fa-dot-circle"></i>En cours</div>
+							<div class="where">à distance</div>
 						</div>
 						<div class="colonne_deux">
 							<h3>OpenClassrooms</h3>
@@ -140,60 +121,48 @@ Ensure the compliance of a web page with HTML and CSS standards">
 							<p>en realisant 7 projets professionalisants , j'apprends à créer des sites
 								web , intégrer des données et programmer des backends.</p>
 						</div>
-					</div>
-					<div class="block">
+					</section>
+					<section class="block">
 						<div class="colonne_une">
 							<p class="date"><i class="fas fa-circle"></i>2016</p>
-							<p class="where">Saint-Etienne (France) </p>
+							<p class="where">Saint-Etienne</p>
 						</div>
 						<div class="colonne_deux">
 							<h3>Université Jean Monnet Saint-Etienne</h3>
 							<p>L2 informatique  </p>
 							<p>première année tronc commun sciences deuxième année informatique générale </p>
 						</div>
-					</div>
-					<div class="block">
+					</section>
+					<section class="block">
 						<div class="colonne_une">
 							<p class="date"><i class="fas fa-circle"></i>2015</p>
-							<p class="where">Constantine (Algérie)</p>
+							<p class="where">Constantine</p>
 						</div>
 						<div class="colonne_deux">
 							<h3>Université Constantine 2 </h3>
 							<p>DU- mathématique </p>
 							<p> Algèbre , Analyse , Probabilités </p>
 						</div>
-					</div>
-					<div class="block">
+					</section>
+					<section class="block">
 						<div class="colonne_une">
 							<p class="date"><i class="fas fa-circle"></i>2014</p>
-							<p class="where">Ath Mansour (Algérie)</p>
+							<p class="where">Ath Mansour</p>
 						</div>
 						<div class="colonne_deux">
 							<h3>Lycée Zouzaman </h3>
 							<p>Bac S </p>
 							<p>diplome d'accès aux études suppérieures </p>
 						</div>
-					</div>
-					<div class="block">
-						<div class="colonne_une">
-							<p class="date"><i class="fas fa-circle"></i>2010 - 2012</p>
-							<p class="where">Alger-centre,Alger  (Algérie)</p>
-						</div>
-						<div class="colonne_deux">
-							<h3>Success School AGIR </h3>
-							<p>Certificat d'aptitude en langue Anglaise </p>
-							<p>J'ai suivi une formation de Langue et culture américaine .
-								un programme de deux ans proposé par l'ambassade des Etats Unies à Alger </p>
-						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 				<!--Experience-->
-				<section class="main-block"  id="experience">
-					<h2><i class="fas fa-briefcase"></i>Expériences</h2>
+				<div class="main-block"  id="experience">
+					<h2><i class="fas fa-briefcase"></i>expérience professionnelle</h2>
 					<div class="block">
 						<div class="colonne_une">
-							<p class="date"><i class="far fa-dot-circle"></i>Nov. 2018 - Aujourd'hui</p>
-							<p class="where">Auvergne Rhône-alpes  (France)</p>
+							<p class="date"><i class="far fa-dot-circle"></i>2018 - Aujourd'hui</p>
+							<p class="where">Lyon</p>
 						</div>
 						<div class="colonne_deux">
 							<h3>Connectware France , Futura Media</h3>
@@ -204,8 +173,8 @@ Ensure the compliance of a web page with HTML and CSS standards">
 					</div>
 					<div class="block">
 						<div class="colonne_une">
-							<p class="date"><i class="fas fa-circle"></i>Fév. 2018 - Oct. 2018</p>
-							<p class="where">Remote (Irland)</p>
+							<p class="date"><i class="fas fa-circle"></i>2018-2019</p>
+							<p class="where">Dublin</p>
 						</div>
 						<div class="colonne_deux">
 							<h3>LionBridge Technologies</h3>
@@ -215,8 +184,8 @@ Ensure the compliance of a web page with HTML and CSS standards">
 					</div>
 					<div class="block">
 						<div class="colonne_une">
-							<p class="date"><i class="fas fa-circle"></i>Avr. 2016 - Janvier 2018</p>
-							<p class="where">Clermont Ferrand (France)</p>
+							<p class="date"><i class="fas fa-circle"></i>2016-2018</p>
+							<p class="where">Clermont-Ferrand </p>
 						</div>
 						<div class="colonne_deux">
 							<h3>RGIS France</h3>
@@ -226,9 +195,9 @@ Ensure the compliance of a web page with HTML and CSS standards">
 							</p>
 						</div>
 					</div>
-				</section>
+				</div>
 				<!--Références-->
-				<section class="main-block"  id="references">
+				<div class="main-block"  id="references">
 					<h2><i class="fas fa-pencil-alt"></i> Recommandations</h2>
 					<div class="block">
 						<div class="colonne_une_references">
@@ -245,7 +214,7 @@ Ensure the compliance of a web page with HTML and CSS standards">
 							<p>E-mail: sur demande</p>
 						</div>
 					</div>
-				</section>
+				</div>
 			</main>
 		</div>
 	</body>
