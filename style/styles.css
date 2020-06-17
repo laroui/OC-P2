@@ -9,15 +9,55 @@ html{
 }
 
 /*Mobile burger button*/
-.menu{margin:0 30px 0 0;text-align:center;width:100%;display:none}
-.menu a{font-weight:700;text-decoration:none;text-transform:uppercase;color:#212121;line-height:60px;display:block;margin:0;width:100%}
-.menu a:active{background-color:#d3d3d3}
-.mobile{text-align:right;min-height:70px;line-height:70px}
-.menu{margin:0 30px 0 0;text-align:center;width:100%;display:none}
-.menu a:active{background-color:#212121}
-.menu a{text-decoration:none;text-transform:uppercase;color:#1d1f6c;line-height:70px;display:block;margin:0;width:100%}
-label{margin:0 40px 0 0;font-size:26px;line-height:70px;display:block;text-align:right;cursor:pointer;width:34px}
-#toggle{display:none}#toggle:checked+.menu{display:block;background:#f5f5f5}
+.menu{
+	margin:0 30px 0 0;
+	text-align:center;
+	width:100%;
+	display:none}
+.menu a{
+	font-weight:700;text-decoration:none;
+	text-transform:uppercase;
+	color:#212121;
+	line-height:60px;
+	display:block;
+	margin:0;
+	width:100%;
+}
+.menu a:active{
+	background-color:#d3d3d3
+}
+.mobile{text-align:right;
+	min-height:70px;
+	line-height:70px}
+.menu{
+	margin:0 30px 0 0;
+	text-align:center;
+	width:100%;
+	display:none
+}
+.menu a:active{
+	background-color:#212121}
+.menu a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#1d1f6c;
+	line-height:70px;
+	display:block;
+	margin:0;
+	width:100%}
+label{
+	margin:0 40px 0 0;
+	font-size:26px;
+	line-height:70px;
+	display:block;
+	text-align:right;
+	cursor:pointer;
+	width:34px}
+#toggle{
+	display:none}
+#toggle:checked+.menu{
+	display:block;
+	background:#f5f5f5}
 /*AVATAR rounded image*/
 .avat{
 	display:flex;
@@ -38,27 +78,42 @@ label{margin:0 40px 0 0;font-size:26px;line-height:70px;display:block;text-align
 
 	margin:4em 5px 2em 0;
 	vertical-align:middle;
-	width:230px;
-	height:230px;
+	width:300px;
+	height:300px;
 	border-radius:50%
+}
+.colonne_une{
+	display: flex;
+	flex-direction: column;
+}
+.colonne_deux{
+	display: flex;
+	flex-direction: column;
 }
 body{
 	font-family:Raleway,'Times New Roman',sans-serif;
 	max-width:1400px;
 	background-color:#f5f5f5
 }
-h2{
+.main-block h2{
 	text-transform:uppercase
 }
 
 i{
 	color: #757575;
 }
-.desktop-header .mobile-head {
+.desktop-header h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+}
+.mobile-head h1 {
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	text-transform: uppercase;
 }
-
+h2{
+	font-family: Roboto;
+}
 .aside-block div{
 	margin-left:8%;
 	margin-right:8%;
@@ -86,8 +141,15 @@ i{
 /*mobile SECTION */
 
 .main_container{
+	align-content: center;
+	justify-content: center;
+	flex:1;
 	display: flex;
 	flex-direction: column;
+}
+.main-block h1 h2 p {
+	font-size: 1.3em;
+	color: #757575;
 }
 .block{
 	width: 100%;
@@ -96,8 +158,9 @@ i{
 
 
 .aside-block h2{
-	background-color: #757575;
-	color:#212121;
+
+	color: #757575;
+	background-color:#212121;
 	text-align:center
 }
 #contact #about p a{
@@ -107,7 +170,7 @@ i{
 #hobbies{
 	text-align:center;padding-bottom:20px}
 #hobbies i{
-	font-size:3em;
+	font-size:2em;
 	margin-right:5px;
 	border:2px solid #212121;
 	border-radius:35px;
@@ -126,8 +189,8 @@ i{
 	   flex-direction:row;
 	   flex-wrap:nowrap;
 	   justify-content:space-between;flex:1}
-main .block h3+p{font-family:Arial}
-main .main-block h2{border-bottom:solid #757575 3px;width:80%}
+.main .block h3+p{font-family:Arial}
+.main .main-block h2{border-bottom:solid #757575 3px;width:80%}
 h2 i{color: #757575;padding-right:15px}
 .main-block h2{border-bottom:solid #757575 2px;}
 /*Desktop CSS */
@@ -141,8 +204,7 @@ h2 i{color: #757575;padding-right:15px}
 		font-weight: bold;
 		font-size: 0.5em;
 	}
-	main{
-		padding-left: 8%;
+	.main{
 		display: flex;
 		align-content: center;
 		justify-content: center;
@@ -157,6 +219,10 @@ h2 i{color: #757575;padding-right:15px}
 }
 
 @media (min-width:1024px) {
+	.aside-block h2{
+		text-transform :uppercase;
+		background-color: #212121;
+	}
 	aside{
 		width: 40%;
 		background-color: #757575
@@ -173,18 +239,21 @@ h2 i{color: #757575;padding-right:15px}
 		color:#212121;
 		felx:.6;}
 	.where{
-		padding-right:20%;
+
 	}
 	.colonne_une i{
 		padding-right: 5px;
 	}
 	.colonne_une{
-		width:40%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		width:100%;
 		flex:.4}
 	aside
 	{
 		display:flex;
-		flex:2;
+		width: 40%;
 		justify-content:stretch;
 		flex-direction:column;
 		margin:0 5% 0 0;
@@ -196,7 +265,7 @@ h2 i{color: #757575;padding-right:15px}
 		box-shadow:none}
 	.main-block{
 		display:flex;
-		width:100%;
+		width:90%;
 		flex-direction:column;
 		flex-wrap:nowrap;
 		justify-content:stretch;
