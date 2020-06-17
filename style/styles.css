@@ -82,11 +82,11 @@ label{
 	height:300px;
 	border-radius:50%
 }
-.colonne_une{
+.col_une{
 	display: flex;
 	flex-direction: column;
 }
-.colonne_deux{
+.col_deux{
 	display: flex;
 	flex-direction: column;
 }
@@ -233,7 +233,7 @@ h2 i{color: #757575;padding-right:15px}
 	.mobile-head{display:none}.mobile{display:none}
 	.desktop{display:contents;display:flex;background-color:#212121}
 	.desktop a{text-decoration:none;flex:1;margin:auto;text-align:center;color: #757575;text-transform:uppercase}
-	.colonne_deux {
+	.col_deux {
 		display: block;
 		padding:0% 5% 5% 5%;
 		width:70%;
@@ -243,15 +243,17 @@ h2 i{color: #757575;padding-right:15px}
 		width: 90%;
 	}
 	.where{
-
+	width: 100%;
+		padding-left: 21px;
 	}
-	.colonne_une .date{
+
+	.date{
 		width: 100%;
 	}
-	.colonne_une i{
+	.col_une i{
 		padding-right: 5px;
 	}
-	.colonne_une{
+	.col_une{
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
