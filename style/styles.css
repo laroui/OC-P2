@@ -70,7 +70,7 @@ label{
 
 .avatar{
 
-	box-shadow:1px 1px 4px 0 rgba(0,0,0,.75) inset;-moz-box-shadow:1px 1px 4px 0 rgba(0,0,0,.75) inset;-webkit-box-shadow:1px 1px 4px 0 rgba(0,0,0,.75) inset;border:1px solid rgba(150,180,150,.5);
+	box-shadow:4px 4px 4px 4px rgba(0,0,0,.75) inset;
 	width:50px;height:50px;
 	border-radius:50%
 }
@@ -224,6 +224,9 @@ h2 i{color: #757575;padding-right:15px}
 }
 
 @media (min-width:1024px) {
+	.desktop-header  {
+		padding-left: 5%;
+	}
 
 	label{
 		margin:0 40px 0 0;
@@ -279,7 +282,7 @@ h2 i{color: #757575;padding-right:15px}
 		width: 40%;
 		justify-content:stretch;
 		flex-direction:column;
-		margin:0 5% 0 0;
+		margin:0 0 0 0;
 	}
 	#about
 	{flex-grow:2}
