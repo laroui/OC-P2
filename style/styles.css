@@ -202,6 +202,7 @@ h2 i{color: #757575;padding-right:15px}
 /*Desktop CSS */
 
 @media screen and (max-width:768px) {
+
 	.block{
 		margin:1% 1% 5% 1%;
 		padding:1% 1% 5% 1%;
@@ -220,6 +221,33 @@ h2 i{color: #757575;padding-right:15px}
 	.desktop-header{
 		display:none;
 		clear:both
+	}
+	.where{
+		width: 100%;
+
+	}
+
+	.date{
+		width: 100%;
+	}
+	.col_une i{
+		padding-right: 5px;
+	}
+	.col_une{
+		font-weight: bold;
+		font-size: 75%;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		flex-direction: column;
+		width:40%;
+	}
+	.col_deux{
+		font-size:75%
+	}
+	#references{
+		font-size: 75%;
+		display: block;
 	}
 
 }
@@ -253,7 +281,7 @@ h2 i{color: #757575;padding-right:15px}
 	.desktop a{text-decoration:none;flex:1;margin:auto;text-align:center;color: #757575;text-transform:uppercase}
 	.col_deux {
 		display: block;
-		padding:0% 5% 5% 5%;
+		padding:0% 5% 2% 5%;
 		width:70%;
 		color:#212121;
 		}
