@@ -202,6 +202,9 @@ h2 i{color: #757575;padding-right:15px}
 /*Desktop CSS */
 
 @media screen and (max-width:768px) {
+	h2{
+		font-size: 18px;
+	}
 
 	.block{
 		margin:1% 1% 5% 1%;
@@ -209,8 +212,9 @@ h2 i{color: #757575;padding-right:15px}
 	}
 	i{
 		font-weight: bold;
-		font-size: 0.5em;
+		font-size: 150%;
 	}
+
 	.main{
 		display: flex;
 		align-content: center;
@@ -222,23 +226,25 @@ h2 i{color: #757575;padding-right:15px}
 		display:none;
 		clear:both
 	}
-	.where{
-		width: 100%;
-
+	.where p{
+		padding-left: 20%;
+		width: 80%;
 	}
+
 
 	.date{
 		width: 100%;
 	}
 	.col_une i{
-		padding-right: 5px;
+		font-size: 200%;
+		padding-right: 20px;
 	}
 	.col_une{
 		font-weight: bold;
 		font-size: 75%;
 		display: flex;
 		flex-wrap: nowrap;
-		justify-content: center;
+
 		flex-direction: column;
 		width:40%;
 	}
