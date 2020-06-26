@@ -351,3 +351,8 @@ h2 i{color: #757575;padding-right:15px}
 		border: #212121 solid 4px;
 	}
 	}
+@media (min-width:960px ) and (max-height:600px){
+	.desktop-header{
+		display: none;
+	}
+}
