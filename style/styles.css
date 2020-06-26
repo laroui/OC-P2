@@ -201,7 +201,7 @@ h2 i{color: #757575;padding-right:15px}
 .main-block h2{border-bottom:solid #757575 2px;}
 /*Desktop CSS */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 	h2{
 		font-size: 18px;
 	}
