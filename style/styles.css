@@ -227,6 +227,8 @@ h2 i{color: #757575;padding-right:15px}
 		clear:both
 	}
 	.where p{
+		margin-left: 5%;
+		padding-right: 20px;
 		padding-left: 20%;
 		width: 80%;
 	}
@@ -236,8 +238,8 @@ h2 i{color: #757575;padding-right:15px}
 		width: 100%;
 	}
 	.col_une i{
-		font-size: 200%;
-		padding-right: 20px;
+		font-size: 75%;
+		padding-right: 5px;
 	}
 	.col_une{
 		font-weight: bold;
