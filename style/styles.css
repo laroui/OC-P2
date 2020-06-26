@@ -201,7 +201,7 @@ h2 i{color: #757575;padding-right:15px}
 .main-block h2{border-bottom:solid #757575 2px;}
 /*Desktop CSS */
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1024px) {
 	h2{
 		font-size: 18px;
 	}
@@ -351,7 +351,7 @@ h2 i{color: #757575;padding-right:15px}
 		border: #212121 solid 4px;
 	}
 	}
-@media (min-width:960px ) and (max-height:600px){
+@media (min-width:960px ) and (max-width:1024px){
 	.desktop-header{
 		display: none;
 	}
