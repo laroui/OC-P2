@@ -17,7 +17,7 @@ html{
 .menu a{
 	font-weight:700;text-decoration:none;
 	text-transform:uppercase;
-	color:#212121;
+	color: #424242;
 	line-height:60px;
 	display:block;
 	margin:0;
@@ -36,7 +36,8 @@ html{
 	display:none
 }
 .menu a:active{
-	background-color:#212121}
+	background-color: #424242
+}
 .menu a{
 	text-decoration:none;
 	text-transform:uppercase;
@@ -71,7 +72,7 @@ label{
 .avatar{
 
 	box-shadow:4px 4px 4px 4px rgba(0,0,0,.75) inset;
-	border:solid 3px rgba( 212127,212127,212127 ,.1);
+	border:solid 3px rgba(66, 66, 66, 0.12);
 	width:50px;height:50px;
 	border-radius:50%
 }
@@ -113,6 +114,7 @@ i{
 	text-transform: uppercase;
 }
 h2{
+	color: #424242;
 	font-family: Roboto;
 }
 .main-block{
@@ -124,7 +126,7 @@ h2{
 	margin-left:8%;
 	margin-right:8%;
 	align-content:center;
-	color:#212121
+	color: #424242
 }
 .prenom {
 	font-style: normal;
@@ -164,11 +166,11 @@ h2{
 .aside-block h2{
 	text-transform: uppercase;
 	color: #757575;
-	background-color:#212121;
+	background-color: #424242;
 	text-align:center
 }
 #contact #about p a{
-	color:#212121;
+	color: #424242;
 	text-decoration:none
 }
 #hobbies{
@@ -176,10 +178,11 @@ h2{
 #hobbies i{
 	font-size:2em;
 	margin-right:5px;
-	border:2px solid #212121;
+	border:2px solid #424242;
 	border-radius:35px;
 	padding:15px;
-	color:#212121}
+	color: #424242
+}
 .loisirs{
 	display:flex
 }
@@ -278,7 +281,7 @@ h2 i{color: #757575;padding-right:15px}
 	.aside-block h2{
 		font-size: 200%;
 		text-transform :uppercase;
-		background-color: #212121;
+		background-color: #424242;
 	}
 	aside{
 		width: 35%;
@@ -288,13 +291,14 @@ h2 i{color: #757575;padding-right:15px}
 	display: flex;
 	}
 	.mobile-head{display:none}.mobile{display:none}
-	.desktop{display:contents;display:flex;background-color:#212121}
+	.desktop{display:contents;display:flex;background-color: #424242
+	}
 	.desktop a{text-decoration:none;flex:1;margin:auto;text-align:center;color: #757575;text-transform:uppercase}
 	.col_deux {
 		display: block;
 		padding:0% 5% 2% 5%;
 		width:70%;
-		color:#212121;
+		color: #424242;
 		}
 	.main-block h2{
 		width: 90%;
@@ -350,7 +354,7 @@ h2 i{color: #757575;padding-right:15px}
 @media (min-width:1920px) {
 	.main_container{
 		font-size: 125%;
-		border: #212121 solid 4px;
+		border: #424242 solid 4px;
 	}
 	}
 
