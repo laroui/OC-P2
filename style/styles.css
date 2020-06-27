@@ -357,4 +357,10 @@ h2 i{color: #757575;padding-right:15px}
 		border: #424242 solid 4px;
 	}
 	}
+@media (max-width:1023px) {
+	.desktop-header{
+	display:none;
+	clear:both
+}
+}
 
